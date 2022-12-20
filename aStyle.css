@@ -1,0 +1,1591 @@
+/*The A & Y*/
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/HelveticaNeue-medium.otf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/HelveticaNeue-Regular.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/HelveticaNeue-Bold.otf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/HelveticaNeue-Bold.otf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./fonts/HelveticaNeue-Bold.otf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica-Bold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica-Bold.ttf');
+    font-weight: 800;
+}
+.aol{
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+div.aol{
+    font-size: 18px;
+}
+.aol, .aol button, .aol input{
+    font-family: sans-serif
+}
+.aol a:focus {
+    outline: thin dotted
+}
+
+.aol a:active, a:hover {
+    outline: 0
+}
+
+.aol h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+.aol h2 {
+    font-size: 1.5em;
+    margin: .83em 0
+}
+
+.aol h3 {
+    font-size: 1.17em;
+    margin: 1em 0
+}
+
+.aol h4 {
+    font-size: 1em;
+    margin: 1.33em 0
+}
+
+.aol h5 {
+    font-size: .83em;
+    margin: 1.67em 0
+}
+
+.aol h6 {
+    font-size: .67em;
+    margin: 2.33em 0
+}
+
+.aol input{
+    outline: 0;
+}
+
+.aol .login-box.right {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: 11px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #26282a;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+    width: 360px;
+    right: 0;
+    min-height: 550px;
+    z-index: 1;
+    padding: 28px 5px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+    padding-top: 0;
+}
+
+.aol .mbr-login-hd.txt-align-center{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    background-color: #fff;
+    color: #26282a;
+    margin-bottom: 0;
+    padding-top: 28px;
+    padding-bottom: 0;
+}
+
+.aol .logo.aol-en-US{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    color: #26282a;
+    width: 100px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    max-width: 90vw;
+    padding: 0;
+}
+
+.aol .dark-mode-logo.logo.aol-en-US{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    color: #26282a;
+    width: 100px;
+    border: 0;
+    margin: 0 auto;
+    max-width: 90vw;
+    display: none;
+    padding: 0;
+}
+
+.aol .challenge.password-challenge{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0 auto;
+    max-width: 18.82353rem;
+    padding: 0 1.41176rem;
+}
+
+.aol .challenge-header{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    width: 100%;
+    margin-top: 17px;
+    min-height: 18px;
+}
+
+.aol .yid{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .82353rem;
+    letter-spacing: .58px;
+    text-align: center;
+}
+
+.aol #password-challenge{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.aol .challenge-heading{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    margin: .82353rem 0 0;
+    font-size: 1.27647rem;
+    font-weight: 600;
+    letter-spacing: .52px;
+    text-align: center;
+    line-height: 1.57294rem;
+}
+
+.aol .txt-align-center.challenge-desc{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0;
+    margin-top: .35294rem;
+    font-size: .94353rem;
+    letter-spacing: -.3px;
+    line-height: 1.32rem;
+    text-align: center;
+}
+
+.aol .challenge-form{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    margin: 2.35294rem 0 0;
+}
+
+.aol .input-group.password-container.blurred{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 1.29412rem;
+    border-bottom: 1px solid #d8dade;
+}
+
+.aol #login-passwd{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: baseline;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    border-radius: 0;
+    background-color: transparent;
+    color: #26282a;
+    line-height: 1.17647rem;
+    flex: 1;
+    padding: 0 8px 0 0;
+    margin: .41176rem 0 0;
+    height: 1.88235rem;
+    font-size: .82353rem;
+    font-weight: 800;
+    letter-spacing: .17647rem;
+    border: 0;
+}
+
+.aol #login-passwd:focus{
+    /*border-bottom: 2px solid #1476d9;*/
+}
+
+.aol .password-label{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    color: #999;
+    font-size: .82353rem;
+    letter-spacing: -.1px;
+    font-weight: 400;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: .70588rem;
+    margin-top: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    transition: .2s ease all;
+}
+
+.aol .input-group.password-container.blurred.focused{
+    border-bottom: 1px solid #1476d9;
+    transition: .2s ease all;
+}
+
+.aol .input-group.password-container.blurred.focused .password-label{
+    top: -.47059rem;
+    font-size: .7588rem;
+    letter-spacing: .7px;
+    color: #262626;
+}
+
+.aol .caps-indicator{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    background-size: cover;
+    width: .70588rem;
+    height: .82353rem;
+    margin-left: .47059rem;
+    background-image: url(https://s.yimg.com/wm/mbr/images/capslock-v0.0.2.svg);
+    margin-top: .35294rem;
+}
+
+.aol .caps-indicator.hide{
+    display: none;
+}
+
+.aol .show-hide-toggle-button{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: normal;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    background-size: .94118rem;
+    background-color: transparent;
+    width: .94118rem;
+    height: .94118rem;
+    padding: 0;
+    border: 0;
+    background-image: url(https://s.yimg.com/wm/mbr/images/show-v0.0.1.svg);
+    margin: .35294rem 0 0 .70588rem;
+}
+
+.aol .show-hide-toggle-button.hide-pw{
+    background-image: url(https://s.yimg.com/wm/mbr/images/hide-v0.0.1.svg);
+}
+
+.aol .button-container{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    font-size: .82353rem;
+    margin-top: 1.41176rem;
+    padding: 0;
+}
+
+.aol #login-signin{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    text-transform: none;
+    -webkit-appearance: button;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    font-family: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: .11765rem;
+    margin: 0;
+    width: 100%;
+    white-space: normal;
+    color: #fff;
+    background: #39f;
+    border: 1px solid #39f;
+    position: relative;
+    font-size: .94118rem;
+    font-weight: 500;
+    min-height: 2.35294rem;
+    padding: .64706rem 0;
+    line-height: 1rem;
+}
+
+.aol #login-signin:hover{
+    background: #5CADFF;
+    border-color: #5CADFF;
+}
+
+.aol .pure-button.puree-button-primary.puree-spinner-button.challenge-button.loading:after{
+    content: '';
+    background: url(https://s.yimg.com/wm/modern/images/fuji-spinner-1.0.1.svg) no-repeat 0 0;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.aol .error-msg{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    background-color: transparent;
+    font-size: .75588rem;
+    line-height: 1.17647rem;
+    padding: .29412rem 8px 0 0;
+    color: #f0162f;
+    text-align: left;
+    letter-spacing: .3px;
+}
+
+.aol .forgot-cont.challenge-button-link{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: 'Helvetica Neue',Helvetica,Arial;
+    direction: ltr;
+    color: #26282a;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    font-size: .82353rem;
+    line-height: 1rem;
+    white-space: normal;
+    text-align: center;
+    margin: 1.05882rem 0 20px;
+}
+
+.aol .pure-button.puree-button-link.challenge-button-link{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    font-family: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: .11765rem;
+    border: solid 1px transparent;
+    color: #39f;
+    background: 0 0;
+    font-size: .82353rem;
+    line-height: 1rem;
+    white-space: normal;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+}
+
+@media screen and (max-width: 640px){
+    .aol .login-box.right {
+        position: fixed;
+        margin: 0 auto;
+        left: 0;
+        box-shadow: none;
+        top: 0;
+        width: 100%;
+        min-height: 100%;
+        bottom: 0;
+        right: 0;
+        transition: .2s ease all;
+    }
+    .aol .challenge.password-challenge{
+        max-width: 339px;
+    }
+}
+
+
+
+
+
+
+/*Microsoft*/
+
+.out{
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    background: transparent;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.out .sign-in-box.ext-sign-in-box.fade-in-lightbox{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden;
+    -webkit-animation: fadeIn .3s ease-in;
+}
+
+.out .pagination-view {
+    position: relative;
+    min-height: 206px
+}
+
+.out .pagination-view.has-identity-banner {
+    min-height: 170px
+}
+
+.out .zero-opacity {
+    opacity: 0
+}
+
+.out .lightbox-cover {
+    background-color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in
+}
+
+.out .lightbox-cover.disable-lightbox {
+    z-index: 10;
+    opacity: .5;
+    filter: alpha(opacity=0)
+}
+
+.out .ordered-list {
+    padding-left: 15px
+}
+
+.out .checkmark-badge {
+    position: relative;
+    bottom: 1px;
+    height: 15px;
+    width: 15px
+}
+
+.out .richtext-warning {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.out .richtext-description {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+@media (-ms-high-contrast) {
+    .out .btn, .out button, .out input[type='button'], .out input[type='submit'], .out input[type='reset'], .out .btn.btn-google {
+        -ms-high-contrast-adjust: none;
+        outline: 1px solid windowText;
+        border: 1px solid window;
+        background-color: window;
+        color: windowText;
+        text-decoration: none
+    }
+
+    .out .btn:hover, .out button:hover, .out input[type='button']:hover, .out input[type='submit']:hover, .out input[type='reset']:hover, .out .btn.btn-google:hover {
+        outline: 1px solid windowText;
+        border: 1px solid highlight;
+        background-color: highlight;
+        color: highlightText;
+        text-decoration: none
+    }
+
+    .out .btn:hover:focus, .out button:hover:focus, .out input[type='button']:hover:focus, .out input[type='submit']:hover:focus, .out input[type='reset']:hover:focus, .out .btn.btn-google:hover:focus {
+        outline: 1px solid windowText;
+        border: 1px solid windowText;
+        background-color: highlight;
+        color: highlightText;
+        text-decoration: underline
+    }
+
+    .out .btn:focus, .out button:focus,.out  input[type='button']:focus,.out  input[type='submit']:focus,.out  input[type='reset']:focus, .out .btn.btn-google:focus {
+        outline: 1px solid windowText;
+        border: 1px solid windowText;
+        background-color: window;
+        color: windowText;
+        text-decoration: underline
+    }
+
+    .out .btn.btn-primary, .out button.btn-primary, .out input[type='button'].btn-primary,.out  input[type='submit'].btn-primary, .out input[type='reset'].btn-primary, .out .btn.btn-google.btn-primary {
+        outline: 1px solid highlight;
+        border: 1px solid highlight;
+        background-color: highlight;
+        color: highlightText;
+        text-decoration: none
+    }
+
+    .out .btn.btn-primary:hover, .out button.btn-primary:hover, .out input[type='button'].btn-primary:hover,.out  input[type='submit'].btn-primary:hover, .out input[type='reset'].btn-primary:hover, .out .btn.btn-google.btn-primary:hover {
+        outline: 1px solid highlight;
+        border: 1px solid window;
+        background-color: window;
+        color: highlight;
+        text-decoration: none
+    }
+
+    .out .btn.btn-primary:hover:focus, .out button.btn-primary:hover:focus, .out input[type='button'].btn-primary:hover:focus, .out input[type='submit'].btn-primary:hover:focus, .out input[type='reset'].btn-primary:hover:focus, .out .btn.btn-google.btn-primary:hover:focus {
+        outline: 1px solid windowText;
+        border: 1px solid window;
+        background-color: window;
+        color: highlight;
+        text-decoration: underline
+    }
+
+    .out .btn.btn-primary:focus, .out button.btn-primary:focus, .out input[type='button'].btn-primary:focus, .out input[type='submit'].btn-primary:focus, .out input[type='reset'].btn-primary:focus, .out .btn.btn-google.btn-primary:focus {
+        outline: 1px solid windowText;
+        border: 1px solid window;
+        background-color: highlight;
+        color: highlightText;
+        text-decoration: underline
+    }
+
+    .out .backButton {
+        outline: none;
+        border: 1px solid window;
+        background-color: window;
+        color: windowText
+    }
+
+    .out .backButton:hover {
+        outline: none;
+        border: 1px solid highlight;
+        background-color: window;
+        color: windowText
+    }
+
+    .out .backButton:hover:focus {
+        outline: none;
+        border: 1px solid highlight;
+        background-color: window;
+        color: windowText
+    }
+
+    .out .backButton:focus, .backButton:active {
+        outline: none;
+        border: 1px dashed highlight;
+        background-color: window;
+        color: windowText
+    }
+}
+
+
+.out .progress {
+    overflow: hidden
+}
+
+.out .progress > div {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #0067b8;
+    z-index: 100;
+    border-radius: 50%;
+    opacity: 0
+}
+
+.out .progress > img {
+    position: absolute
+}
+
+.out .progress-container {
+    width: 100%;
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    outline-color: transparent
+}
+
+.out .progress-container-tile {
+    width: 100%;
+    position: relative;
+    top: 1px
+}
+
+.out .progress-container-tile-content {
+    width: 100%;
+    position: relative;
+    top: 15px
+}
+
+.out .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%
+}
+
+.out .hme{
+    display: none !important;
+}
+.out .input.text-box.has-error {
+    border-color: #e81123;
+}
+
+.out .progress > div {
+    -webkit-animation: progressDot 2s infinite;
+    -moz-animation: progressDot 2s infinite;
+    -o-animation: progressDot 2s infinite;
+    animation: progressDot 2s infinite
+}
+
+.out .progress > div:nth-child(1) {
+    -webkit-animation-delay: .05s;
+    -moz-animation-delay: .05s;
+    -o-animation-delay: .05s;
+    animation-delay: .05s
+}
+
+.out .progress > div:nth-child(2) {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -o-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.out .progress > div:nth-child(3) {
+    -webkit-animation-delay: .35s;
+    -moz-animation-delay: .35s;
+    -o-animation-delay: .35s;
+    animation-delay: .35s
+}
+
+.out .progress > div:nth-child(4) {
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s
+}
+
+.out .progress > div:nth-child(5) {
+    -webkit-animation-delay: .65s;
+    -moz-animation-delay: .65s;
+    -o-animation-delay: .65s;
+    animation-delay: .65s
+}
+
+@-webkit-keyframes progressDot {
+    0%, 20% {
+        left: 0;
+        -webkit-animation-timing-function: ease-out;
+        opacity: 0
+    }
+    25% {
+        opacity: 1
+    }
+    35% {
+        left: 45%;
+        -webkit-animation-timing-function: linear
+    }
+    65% {
+        left: 60%;
+        -webkit-animation-timing-function: ease-in
+    }
+    75% {
+        opacity: 1
+    }
+    80%, 100% {
+        left: 100%;
+        opacity: 0
+    }
+}
+
+@-moz-keyframes progressDot {
+    0%, 20% {
+        left: 0;
+        -moz-animation-timing-function: ease-out;
+        opacity: 0
+    }
+    25% {
+        opacity: 1
+    }
+    35% {
+        left: 45%;
+        -moz-animation-timing-function: linear
+    }
+    65% {
+        left: 60%;
+        -moz-animation-timing-function: ease-in
+    }
+    75% {
+        opacity: 1
+    }
+    80%, 100% {
+        left: 100%;
+        opacity: 0
+    }
+}
+
+@-o-keyframes progressDot {
+    0%, 20% {
+        left: 0;
+        -o-animation-timing-function: ease-out;
+        opacity: 0
+    }
+    25% {
+        opacity: 1
+    }
+    35% {
+        left: 45%;
+        -o-animation-timing-function: linear
+    }
+    65% {
+        left: 60%;
+        -o-animation-timing-function: ease-in
+    }
+    75% {
+        opacity: 1
+    }
+    80%, 100% {
+        left: 100%;
+        opacity: 0
+    }
+}
+
+@keyframes progressDot {
+    0%, 20% {
+        left: 0;
+        animation-timing-function: ease-out;
+        opacity: 0
+    }
+    25% {
+        opacity: 1
+    }
+    35% {
+        left: 45%;
+        animation-timing-function: linear
+    }
+    65% {
+        left: 60%;
+        animation-timing-function: ease-in
+    }
+    75% {
+        opacity: 1
+    }
+    80%, 100% {
+        left: 100%;
+        opacity: 0
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.out div.links a {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+.out div.links a.first {
+    padding-left: 0
+}
+
+.out .fadeIn {
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.out .logo{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: middle;
+    max-width: 256px;
+    height: 24px;
+}
+
+
+
+
+
+.out .identityBanner{
+    -webkit-text-size-adjust: 100%;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+    height: 24px;
+    background: #fff;
+    margin-top: 16px;
+    margin-bottom: -4px;
+}
+
+.out .backButton{
+    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    color: #000;
+    border: none;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: 24px;
+    width: 24px;
+    min-width: 24px;
+    float: left;
+    padding: 0;
+    background-color: #fff;
+    border-width: 0;
+    border-radius: 12px;
+    margin-right: 2px;
+}
+
+.out .identity{
+    -webkit-text-size-adjust: 100%;
+    font-weight: 400;
+    font-size: .9375rem;
+    direction: ltr;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.out .row.title.ext-title{
+    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 1.75rem;
+    padding-bottom: 2.3632px;
+    padding-top: 2.3632px;
+    color: #565656;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 12px;
+  }
+
+.out .form-group{
+    -webkit-text-size-adjust: 100%;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    color: #565656;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.out #usernameError{
+    -webkit-text-size-adjust: 100%;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    direction: ltr;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.out div.placeholderContainer {
+    width: 100%;
+    position: relative;
+}
+
+.out .form-control.input.ext-input.text-box.ext-text-box{
+    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    max-width: 100%;
+    line-height: inherit;
+    display: block;
+    width: 100%;
+    background-image: none;
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.6);
+    height: 36px;
+    outline: none;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+
+.out .text-input, .out input[type="color"], .out input[type="date"], .out input[type="datetime"], .out input[type="datetime-local"], .out input[type="email"], .out input[type="month"], .out input[type="number"], .out input[type="password"], .out input[type="search"], .out input[type="tel"], .out input[type="text"], .out input[type="time"], .out input[type="url"], .out input[type="week"], .out textarea {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0
+}
+
+.out .input.text-box {
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 32px;
+    height: 2rem;
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0, 0, 0, 0.6);
+    height: 36px;
+    outline: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0
+}
+
+.out .input.text-box:focus {
+    background-color: #fff;
+    border-color: #0067b8 !important;
+}
+
+.out .input.text-box:hover {
+    border-color: #323232;
+    border-color: rgba(0, 0, 0, 0.8)
+}
+
+.out .input.text-box::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 1
+}
+
+.out .input.text-box:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.out .input.text-box::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.out .input.text-box.has-error {
+    border-color: #e81123 !important;
+}
+
+.out .input.text-box.has-error:focus {
+    border-color: #0067b8 !important;
+}
+
+.out [disabled].input.text-box, .out [readonly].input.text-box, .out fieldset[disabled] .input.text-box {
+    border-color: #ccc !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: rgba(0, 0, 0, 0.2) !important
+}
+
+
+.out .position-buttons>div:first-child {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.out #idA_PWD_ForgotPassword{
+    -webkit-text-size-adjust: 100%;
+    font-weight: 400;
+    line-height: 1.25rem;
+    direction: ltr;
+    text-align: left;
+    font-size: .8125rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.out #idA_PWD_ForgotPassword:hover{
+    color: #1d1d1d;
+    text-decoration: underline;
+}
+
+.out .button.ext-button.primary {
+    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-appearance: button;
+    cursor: pointer;
+    padding: 4px 12px 4px 12px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    min-height: 32px;
+    border: none;
+    min-width: 108px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: block;
+    max-width: 108px;
+    float: right;
+}
+
+
+.out .error {
+    color: #c5525b;
+}
+
+@media screen and (max-width: 515px) {
+    .out #lightbox{
+    width: 100%;
+    box-shadow: none;
+    max-width: 100%;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+        min-width: 100px !important;
+        border-radius: 0 !important;
+        z-index: 9999;
+    }
+}
+
+
+.out .fade-in-lightbox {
+    animation: fadeIn .3s ease-in;
+    -webkit-animation: fadeIn .3s ease-in;
+    -moz-animation: fadeIn .3s ease-in;
+    -ms-animation: fadeIn .3s ease-in;
+    -o-animation: fadeIn .3s ease-in
+}
+
+.out.animate {
+    animation-duration: .25s;
+    -webkit-animation-duration: .25s;
+    -moz-animation-duration: .25s;
+    -ms-animation-duration: .25s;
+    -o-animation-duration: .25s;
+    animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    -webkit-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    -moz-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    -ms-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    -o-animation-timing-function: cubic-bezier(.5, 0, .5, 1);
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    transition-property: left;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    -ms-transition-property: left;
+    -o-transition-property: left
+}
+
+.out .animate.slide-out-next, .out .animate.slide-out-back {
+    animation-name: hide-to-left;
+    -webkit-animation-name: hide-to-left;
+    -moz-animation-name: hide-to-left;
+    -ms-animation-name: hide-to-left;
+    -o-animation-name: hide-to-left
+}
+
+.out .animate.slide-in-next, .out .animate.slide-in-back {
+    animation-name: show-from-right;
+    -webkit-animation-name: show-from-right;
+    -moz-animation-name: show-from-right;
+    -ms-animation-name: show-from-right;
+    -o-animation-name: show-from-right
+}
+
+.out .animate.slide-out-back, .out .animate.slide-out-next {
+    animation-name: hide-to-right;
+    -webkit-animation-name: hide-to-right;
+    -moz-animation-name: hide-to-right;
+    -ms-animation-name: hide-to-right;
+    -o-animation-name: hide-to-right
+}
+
+.out .animate.slide-in-back,.out .animate.slide-in-next {
+    animation-name: show-from-left;
+    -webkit-animation-name: show-from-left;
+    -moz-animation-name: show-from-left;
+    -ms-animation-name: show-from-left;
+    -o-animation-name: show-from-left
+}
+
+@keyframes hide-to-left {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: -200px;
+        opacity: 0
+    }
+}
+
+@keyframes show-from-right {
+    from {
+        left: 200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@keyframes hide-to-right {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: 200px;
+        opacity: 0
+    }
+}
+
+@keyframes show-from-left {
+    from {
+        left: -200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes hide-to-left {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: -200px;
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show-from-right {
+    from {
+        left: 200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes hide-to-right {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: 200px;
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show-from-left {
+    from {
+        left: -200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-moz-keyframes hide-to-left {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: -200px;
+        opacity: 0
+    }
+}
+
+@-moz-keyframes show-from-right {
+    from {
+        left: 200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-moz-keyframes hide-to-right {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: 200px;
+        opacity: 0
+    }
+}
+
+@-moz-keyframes show-from-left {
+    from {
+        left: -200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-ms-keyframes hide-to-left {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: -200px;
+        opacity: 0
+    }
+}
+
+@-ms-keyframes show-from-right {
+    from {
+        left: 200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-ms-keyframes hide-to-right {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: 200px;
+        opacity: 0
+    }
+}
+
+@-ms-keyframes show-from-left {
+    from {
+        left: -200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-o-keyframes hide-to-left {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: -200px;
+        opacity: 0
+    }
+}
+
+@-o-keyframes show-from-right {
+    from {
+        left: 200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+@-o-keyframes hide-to-right {
+    from {
+        left: 0;
+        opacity: 1
+    }
+    to {
+        left: 200px;
+        opacity: 0
+    }
+}
+
+@-o-keyframes show-from-left {
+    from {
+        left: -200px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+
